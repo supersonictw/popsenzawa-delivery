@@ -8,12 +8,12 @@ import aiohttp
 from dotenv import load_dotenv
 
 load_dotenv()
-
 api_point = os.getenv("POP_API_POINT")
+coroutine_number = int(os.getenv("POP_COROUTINE"))
 
 
 async def main() -> None:
-    tokens = ["" for _ in range(20)]
+    tokens = ["" for _ in range(coroutine_number)]
     while True:
         async with aiohttp.ClientSession() as session:
             promises = [pop(session, token) for token in tokens]

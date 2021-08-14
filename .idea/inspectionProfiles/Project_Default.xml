@@ -1,0 +1,34 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="pyopenssl" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="PyQt5" />
+          <option value="PyQt5-stubs==5.13.1.4" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="PyQt5.QtWebEngineWidgets.loadStarted.connect" />
+          <option value="PyQt5.QtWebEngineWidgets.loadFinished.connect" />
+          <option value="PyQt5.QtNetwork.finished.connect" />
+          <option value="PyQt5.QtNetwork.sslErrors.connect" />
+          <option value="typing.AsyncGenerator.__await__" />
+          <option value="dict.__await__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
